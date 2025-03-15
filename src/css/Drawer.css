@@ -1,0 +1,36 @@
+.drawer_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+
+
+.title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 350px;
+}
+
+
+.drawer_section img {
+    width: 150px;
+    height: 100px;
+    margin-top: 40px;
+}
+
+
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
